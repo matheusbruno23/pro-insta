@@ -1,0 +1,509 @@
+body{
+    background-color: #E5E5E5;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    box-sizing: border-box;
+}
+/* side bar etc */
+.retangulo{
+    width: 28px;
+    height: 85px;
+    background-color: #E5E5E5;
+    margin-top: 107px;
+}
+.sidebar{
+    width: 293px;
+    height: 620px;
+    margin-top: 107px;
+    display: flex;
+    flex-direction: column;
+}
+.sidetopo{
+    display: flex;
+    align-items: center;
+}
+.apelido{
+    width: 182px;
+    height: 34px;
+    margin-left: 17px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 17px;
+}
+.apelido h1{
+    font-weight: 500;
+    color: #262626;
+}
+.apelido p{
+    font-weight: 300;
+    color: #8E8E8E;
+}
+.barra-horizontal{
+    width: 293px;
+    height: 9px;
+    color:#FAFAFA;
+    margin-top: 10px;
+}
+.sidemeio{
+    width: 293px;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 17px;
+}
+.sidemeio p{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 14px;
+    font-weight: 500;
+
+}
+.sidefim{
+    display: flex;
+    align-items: center;
+    justify-items: space-between;
+    margin-bottom: 15px;
+}
+.sidefim h1{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    line-height: 17px;
+    color: #262626;
+}
+.sidefim p{
+    color: #8E8E8E;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+.casal{
+    width: 150px;
+    height: 25px;
+    margin-left: 11px;
+    margin-right: 70px;
+}
+.sidefim img{
+    width: 32px;
+}
+.sidefim p{
+    display: block;
+}
+.letras-miudas{
+    width: 300px;
+    height: 42px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 13px;
+    font-size: 11px;
+    color: #C7C7C7;
+    margin-bottom: 18px;
+    margin-top: 18px;
+}
+.facebook{
+    color: #C7C7C7;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+}
+
+/*fim sidebar etc*/
+/*topo */
+.topo{
+    width: 100%;
+    height: 54px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px #DBDBDB solid;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+.pesquisar{
+    width: 215px;
+    height: 28px;
+    background-color: #FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #DBDBDB;
+}
+.pesquisar p{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #979797;
+}
+.logo{
+    width: 215px;
+    height: 29px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.linha-preta{
+    width: 1px;
+    height: 29px;
+    background-color: #DBDBDB;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.botoes{
+    width: 120px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+/*fim do topo*/
+/*Inicio dos Stories*/
+.stories {
+    display: flex;
+    width: 614px;
+    height: 118px;
+    margin-top: 88px;
+    border: 1px solid;
+    border-color: #DBDBDB;
+    overflow: hidden;
+    align-items: center;
+    position: relative;
+    background-color: #FFFFFF;
+}
+.stories p{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #262626;
+    left: 18px;
+    top: 70px;
+    text-align: center;
+}
+.seta{
+    font-size: 26px;
+    z-index: 2;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    position: absolute;
+    right: 5px;
+    top: 46px;
+    bottom: 46px;
+}
+/* story com borda */
+
+.borda1 img{
+    width: 66px;
+    border-radius: 28px;
+    margin-right: 5px;
+}
+.borda1{
+    position: relative;
+    margin-left: 10px ;
+}
+.story1 img{
+    width: 56px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+/* story com borda*/
+.borda2 img{
+    width: 66px;
+    border-radius: 28px;
+    margin-right: 5px;
+}
+.borda2{
+    position: relative;
+    margin-left: 10px ;
+}
+.story2  img{
+    width: 56px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+/* story com borda*/
+.borda3 img{
+    width: 66px;
+    border-radius: 28px;
+    margin-right: 5px;
+}
+.borda3{
+    position: relative;
+    margin-left: 10px ;
+}
+.story3  img{
+    width: 56px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+/* story com borda*/
+.borda4 img{
+    width: 66px;
+    border-radius: 28px;
+    margin-right: 5px;
+}
+.borda4{
+    position: relative;
+    margin-left: 10px ;
+}
+.story4  img{
+    width: 56px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+/* story com borda*/
+.borda5 img{
+    width: 66px;
+    border-radius: 28px;
+    margin-right: 5px;
+}
+.borda5{
+    position: relative;
+    margin-left: 10px ;
+}
+.story5  img{
+    width: 56px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+/* story com borda*/
+.borda6 img{
+    width: 66px;
+    border-radius: 28px;
+    margin-right: 5px;
+}
+.borda6{
+    position: relative;
+    margin-left: 10px ;
+}
+.story6  img{
+    width: 56px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+/* story com borda*/
+.borda7 img{
+    width: 66px;
+    border-radius: 28px;
+    margin-right: 5px;
+}
+.borda7{
+    position: relative;
+    margin-left: 10px ;
+}
+.story7  img{
+    width: 56px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+/* story com borda*/
+.borda8 img{
+    width: 66px;
+    border-radius: 28px;
+    margin-right: 5px;
+}
+.borda8{
+    position: relative;
+    margin-left: 10px ;
+}
+.story8  img{
+    width: 56px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 1;
+}
+/*Fim dos stories*/
+
+/* Inicio posts */ 
+.barra-inferior{
+    font-family: 'Roboto', sans-serif;
+}
+.corpo{
+    width: 614px;
+    height: 1800px;
+    margin-top: 24px;
+    overflow: hidden;
+}
+.post{
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    margin-bottom: 60px;
+}
+.barra-superior{
+    width: 614px;
+    height: 62px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+}
+
+.barra-superior img{
+width: 32px;
+height: 32px;
+margin-left: 17px;
+}
+.barra-superior p{
+    font-size: 14px;
+    line-height: 17px;
+    color: #262626;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-left: 15px;
+    margin-right: 460px;
+}
+.meio img{
+    width: 614px;
+    height: 614px;
+}
+/*deixei a altura menor pois a proporção do vídeo é 4:3, iria ficar desproporcional */
+.meio video{
+    width: 614px;
+    height: 461px;
+}
+
+.cima{
+    width: 614px;
+    height: 38px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.baixo{
+    width: 614px;
+    height: 38px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.baixo img{
+    width: 20px;
+    margin-left: 17px;
+    margin-right: 5px;
+}
+.cima :nth-child(1){
+    margin-left: 18px;
+}
+.cima :nth-child(2){
+    margin-left: 18px;
+}
+.cima :nth-child(3){
+    margin-left: 18px;
+}
+.cima :nth-child(4){
+    margin-left: 478px;
+}
+.menu-inferior{
+    width: 612px;
+    height: 54px;
+    border: 1px solid #DBDBDB;
+    font-size: 17px;
+    display: flex;
+    background-color:#FFFFFF;
+    justify-content: space-around;
+    align-items: center;
+}
+/* Fim posts */ 
+/* Responsividade */ 
+@media (min-width: 615px){
+    .menu-inferior{
+        display: none;
+    }
+}
+@media (max-width: 935px){
+    .sidebar{
+        display: none;
+    }
+    .container2{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 614px){
+    .seta{
+        display: none;
+    }
+    .container2{
+        max-width: 100%;
+    }
+    .topo{
+        max-width: 100%;
+        box-sizing: border-box;
+        background-color: none;
+    }
+    .stories{
+        box-sizing: border-box;
+        max-width: 100%;
+        background-color: #E5E5E5;
+        border: 0px;
+    }
+    .retangulo{
+        display: none;
+    }
+    .stories{
+        margin-top: 50px;
+    }
+    .topo{
+        display: flex;
+        justify-content: space-between;
+    }
+    .topo img{
+        display: none;
+    }
+    .linha-preta{
+        display: none;
+    }
+    .botoes{
+        width: 50px;
+    }
+    .botoes :nth-child(2){
+        display: none;
+    }
+    .botoes :nth-child(3){
+        display: none;
+    }
+    .botoes :nth-child(4){
+        display: none;
+        position: sticky;
+    }
+    .logo{
+        width: 35px;
+        margin-left: 10px;
+    }
+    .meio img{
+        width: 614px;
+    }
+.container2{
+    position: relative;
+}
+.menu-inferior{
+    position:fixed;
+    bottom: 0;
+}
+
+}
+
+
+
+
+
+/* Responsividade */ 
